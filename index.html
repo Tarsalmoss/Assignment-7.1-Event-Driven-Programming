@@ -1,0 +1,67 @@
+<!--
+    Name: Ian Andalon
+    Assignment: Event Driven Programming - Moving Meme
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Character set -->
+    <meta charset="UTF-8">
+
+    <!-- Mobile responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page title -->
+    <title>Moving Meme Assignment</title>
+
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Main page heading -->
+    <h1>Meme Mover</h1>
+
+    <!-- Instructions for the user -->
+    <p>Click Start to move the meme. Click Stop to stop it.</p>
+
+    <!-- Form required by assignment -->
+    <form id="controlForm">
+
+        <!-- Start button -->
+        <button id="startButton" type="button">
+            Start
+        </button>
+
+        <!-- Stop button -->
+        <button id="stopButton" type="button" disabled>
+            Stop
+        </button>
+
+    </form>
+
+    <!-- Message area using innerHTML -->
+    <div id="messageArea">
+        Ready to start!
+    </div>
+
+    <!-- Container that holds the meme -->
+    <div id="memeContainer">
+
+        <!-- Meme image -->
+        <img
+            id="memeImage"
+            src="https://i.imgflip.com/30b1gx.jpg"
+            alt="Funny Meme">
+
+    </div>
+
+    <!-- Link to JavaScript file -->
+    <script src="code.js"></script>
+
+</body>
+
+</html>
